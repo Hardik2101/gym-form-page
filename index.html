@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,38 +10,43 @@
 <link rel="stylesheet" href="css/style.css">
 <style>
     /* css reset */
-    body{
+    body {
         font-family: 'Bangers', cursive;
-        color: white; 
-        margin:0px;
+        color: white;
+        margin: 0px;
         padding: 0px;
-        background: url('img/bg1.jpg.jpg'),no-repeat  center /cover;
-        
+        background: url('img/bg1.jpg.jpg'), no-repeat center /cover;
+
     }
-    .left{
+
+    .left {
         display: inline-block;
         /* border: 2px solid red; */
         position: absolute;
         left: 34px;
         top: 20px;
     }
-    .left img{
+
+    .left img {
         width: 40px;
         filter: invert(100%);
     }
-    .left div{
+
+    .left div {
         line-height: 19px;
         font-size: 16px;
         text-align: center;
     }
-    .mid{
-        display:block;
+
+    .mid {
+        display: block;
         width: 33%;
         margin: 20px auto;
         /* border: 2px solid green; */
 
     }
-    .right{
+
+    .right {
         position: absolute;
         right: 34px;
         top: 20px;
@@ -48,37 +54,69 @@
         /* border: 2px solid yellow; */
 
     }
-    .navbar{
+
+    .navbar {
         display: inline-block;
-       
+
     }
-    .navbar li{
+
+    .navbar li {
         display: inline-block;
         font-size: 15px;
     }
-    .navbar li a{
+
+    .navbar li a {
         color: white;
         text-decoration: none;
         padding: 34px 23px;
     }
-    .navbar li a:hover, .navbar li a.active{
+
+    .navbar li a:hover,
+    .navbar li a.active {
         text-decoration: underline;
         color: grey;
     }
-    .btn{
-    margin: 14px 20px;
-    background-color: black;
-    color: white;
-    padding: 4px 8px;
-    border-radius: 7px;
-    font-size: 17px;
-    cursor: pointer;
+
+    .btn {
+        margin: 14px 20px;
+        background-color: black;
+        color: white;
+        padding: 4px 8px;
+        border-radius: 7px;
+        font-size: 17px;
+        cursor: pointer;
 
     }
-    .btn:hover{
+
+    .btn:hover {
         background-color: grey;
     }
-    .container{
+
+    .btn-sbt {
+
+        background-color: black;
+        color: white;
+        padding: 4px 8px;
+        border-radius: 7px;
+        font-size: 17px;
+        cursor: pointer;
+        border: 2px solid rgb(165, 153, 153);
+        margin: 5px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        height: 50px;
+        border-radius: 25px;
+        width: 50%;
+        padding: 5px 0;
+        font-size: 16px;
+
+    }
+
+    .btn-sbt:hover {
+        background-color: grey;
+    }
+
+    .container {
         border: 2px solid greenyellow;
         margin: 106px 80px;
         padding: 75px;
@@ -86,48 +124,59 @@
         border-radius: 28px;
     }
 
-    .forms-btn{
+    .forms-btn {
         text-align: center;
         padding-top: 50px;
     }
 
-    .forms-group input{
+    .forms-group input {
         text-align: center;
         display: block;
         width: 300px;
         padding: 10px;
-        border: 2px solid black;
-        margin: 3px auto;
+        border: 2px solid rgb(165, 153, 153);
+        margin: 5px auto;
         font-size: 25px;
         border-radius: 8px;
+        height: 50px;
+        border-radius: 25px;
+        width: 50%;
+        padding: 5px 0;
+        font-size: 16px;
+
+        outline: none;
+
     }
-    .container h1{
+
+    .container h1 {
         text-align: center;
     }
-    .forms-group button{
+
+    .forms-group button {
         display: block;
         width: 23px;
         margin: auto;
     }
 </style>
+
 <body>
     <header class="header">
         <!-- left box for logo -->
         <div class="left">
             <img src="img/symbol.jpg.png" alt="">
             <div>Hardik fitness</div>
-          
-           
+
+
 
 
         </div>
         <!-- mid logo -->
         <div class="mid">
-            <ul class="navbar"><a href="#" ></a>
-                <li><a href="#" >home</a></li>
-                <li><a href="#" >Fitness </a></li>
-                <li><a href="#" >about as</a></li>
-                <li><a href="#" >contact us</a></li>
+            <ul class="navbar"><a href="#"></a>
+                <li><a href="#">home</a></li>
+                <li><a href="#">Fitness </a></li>
+                <li><a href="#">about as</a></li>
+                <li><a href="#">contact us</a></li>
             </ul>
 
 
@@ -154,10 +203,11 @@
                 <input type="text" name="" placeholder="Enter your gender">
             </div>
             <div class="forms-btn">
-                <button class="btn">Submit</button>
+                <button class="btn-sbt">Submit</button>
             </div>
         </form>
     </div>
-    
+
 </body>
+
 </html>
